@@ -1,0 +1,33 @@
+{
+      "name"                        : "related-migration"
+    , "description"                 : "package description"
+    , "version"                     : "0.1.0"
+    , "homepage"                    : "https://github.com/eventEmitter/related-migration"
+    , "author"                      : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)" 
+    , "license"                     : "MIT"
+    , "repository": {
+          "url"                     : "https://github.com/eventEmitter/related-migration.git"
+        , "type"                    : "git"
+    }
+    , "engines": {
+        "node"                      : ">=v0.10.17"
+    }
+    , "bugs": {
+        "url"                       : "https://github.com/eventEmitter/related-migration/issues"
+    }
+    , "dependencies": {
+          "ee-class"                : "1.x"
+        , "ee-types"                : "1.x"
+        , "ee-event-emitter"        : "0.3.x"
+        , "ee-log"                  : "0.3.x"
+        , "blessed"                 : "0.1.x"
+    }
+    , "devDependencies": {
+          "mocha"                   : "1.17.x"
+    }
+    , "optionalDependencies": {}
+    , "keywords"                    : ["related", "orm", "migrations"]
+    , "scripts": {
+        "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
+    }
+}
