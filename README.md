@@ -1,5 +1,7 @@
 # related-migration
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/related-migration.svg)](https://greenkeeper.io/)
+
 automatic db migrations
 
 ## installation
